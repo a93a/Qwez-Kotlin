@@ -1,7 +1,7 @@
-package com.example.qwezkotlin.repository.util
+package com.example.qwezkotlin.data.util
 
 import androidx.lifecycle.MutableLiveData
-import com.example.qwezkotlin.repository.util.Result.Success
+import com.example.qwezkotlin.data.util.Result.Success
 import kotlinx.coroutines.flow.MutableStateFlow
 
 

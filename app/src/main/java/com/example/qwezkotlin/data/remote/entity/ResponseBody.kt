@@ -1,4 +1,4 @@
-package com.example.qwezkotlin.repository.opentdb.entity
+package com.example.qwezkotlin.data.remote.entity
 
 import com.google.gson.annotations.SerializedName
 

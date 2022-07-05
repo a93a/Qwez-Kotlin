@@ -1,8 +1,6 @@
-package com.example.qwezkotlin.repository.opentdb.entity
+package com.example.qwezkotlin.data.remote.entity
 
-import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
-import java.io.Serializable
 
 data class Question(
     @SerializedName("category")

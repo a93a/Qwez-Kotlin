@@ -1,4 +1,4 @@
-package com.example.qwezkotlin.repository.db.entity
+package com.example.qwezkotlin.data.local.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

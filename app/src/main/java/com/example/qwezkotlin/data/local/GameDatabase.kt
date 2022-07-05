@@ -1,13 +1,13 @@
-package com.example.qwezkotlin.repository.db
+package com.example.qwezkotlin.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.example.qwezkotlin.repository.db.GameDatabase.Companion.DATABASE_VERSION
-import com.example.qwezkotlin.repository.db.dao.GameDao
-import com.example.qwezkotlin.repository.db.dao.GameQuestionDao
-import com.example.qwezkotlin.repository.db.dao.QuestionDao
-import com.example.qwezkotlin.repository.db.entity.Game
-import com.example.qwezkotlin.repository.db.entity.Question
+import com.example.qwezkotlin.data.local.GameDatabase.Companion.DATABASE_VERSION
+import com.example.qwezkotlin.data.local.dao.GameDao
+import com.example.qwezkotlin.data.local.dao.GameQuestionDao
+import com.example.qwezkotlin.data.local.dao.QuestionDao
+import com.example.qwezkotlin.data.local.entity.Game
+import com.example.qwezkotlin.data.local.entity.Question
 
 
 @Database(entities = [Game::class, Question::class], version = DATABASE_VERSION)

@@ -1,6 +1,6 @@
-package com.example.qwezkotlin.repository.opentdb
+package com.example.qwezkotlin.data.remote
 
-import com.example.qwezkotlin.repository.opentdb.entity.ResponseBody
+import com.example.qwezkotlin.data.remote.entity.ResponseBody
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

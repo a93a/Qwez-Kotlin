@@ -1,9 +1,9 @@
-package com.example.qwezkotlin.repository.db.dao
+package com.example.qwezkotlin.data.local.dao
 
 import androidx.room.Dao
 import androidx.room.Query
-import com.example.qwezkotlin.repository.db.entity.GameQuestion
-import com.example.qwezkotlin.repository.db.entity.Question
+import com.example.qwezkotlin.data.local.entity.GameQuestion
+import com.example.qwezkotlin.data.local.entity.Question
 import kotlinx.coroutines.flow.Flow
 
 

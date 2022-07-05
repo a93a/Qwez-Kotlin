@@ -1,8 +1,8 @@
 package com.example.qwezkotlin.domain
 
+import com.example.qwezkotlin.data.util.Result
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
-import com.example.qwezkotlin.repository.util.Result
 
 
 abstract class UseCase<in P, R>(private val coroutineDispatcher: CoroutineDispatcher) {

@@ -1,4 +1,4 @@
-package com.example.qwezkotlin.repository.db.dao
+package com.example.qwezkotlin.data.local.dao
 
 import androidx.room.Delete
 import androidx.room.Insert
